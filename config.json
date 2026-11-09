@@ -1,0 +1,44 @@
+{
+  "name": "FongTV 视频源",
+  "notice": "创享影视 / 电影人生 / 飞快TV / Girigiri动漫；配置与爬虫 JAR 由本仓库分发",
+  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/wuli007/fongtv-dist/main/spider/custom_spider.jar;md5;4d64d4fd2cfe0d176054090aae5032d0",
+  "sites": [
+    {
+      "key": "cx",
+      "name": "创享影视",
+      "type": 3,
+      "api": "csp_Maccms",
+      "ext": { "api": "https://ys.cxkjg.cn/api/provide/vod" },
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "dyrs",
+      "name": "电影人生",
+      "type": 3,
+      "api": "csp_Dyrs",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "fk",
+      "name": "飞快TV",
+      "type": 3,
+      "api": "csp_Feikuai",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "girigiri",
+      "name": "Girigiri动漫",
+      "type": 3,
+      "api": "csp_Girigiri",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    }
+  ]
+}
